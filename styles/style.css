@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactAtme{
+    min-height: 10%;
+    min-width: 20%;
+    padding: 10px 0px 10px 20px;
+    background: rgb(9, 26, 73);
+    color: rgb(230, 228, 228);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactAtme .img{
+    background: url(../rsc/img/perfil.jpg);
+    background-size: cover;
+    height:150px;
+    width: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-70%);
+}
+
+.contactAtme .contactame .datos{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.habilities .hab{
+    font-size: 15px;
+}
+
+.mainContent{
+    min-height: 100vh;
+    width: 70%;
+    padding: 30px 80px 80px 80px;
+    background: rgb(230, 228, 228);;
+    color: rgb(43, 43, 43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainContent h1{
+ color: rgb(9, 26, 73);
+ font-size: 40px;
+}
+
+hr{
+    width: 50%;
+    text-align:left;
+    margin-left:0;
+}
+
+.mainContent h2{
+    color: rgb(18, 51, 141);
+    font-size: 20px;
+}
+
+.perfil{
+    max-width: 60%;
+}
+
+.perfil h4{
+    color: rgb(18, 51, 141);
+}
+
+.perfil p{
+    color: rgb(116, 116, 116);
+    margin-left: 35px;
+}
+
+
+.expe{
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+.expe-content h4{
+    color: rgb(18, 51, 141);
+}
+
+.expe-content h5{
+    color: rgb(59, 59, 59);
+    margin-left: 35px;
+    margin-top: -10px;
+
+}
+
+.expe-content p{
+    color: rgb(116, 116, 116);
+    margin-left: 45px;
+    margin-top: -10px;
+
+}
+
+.expe-content ul{
+    color: rgb(116, 116, 116);
+    margin-left: 55px;
+    margin-top: -10px;
+}
+
+.formacion{
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+summary{
+    color: rgb(18, 51, 141);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(230, 228, 228);
+
+}
